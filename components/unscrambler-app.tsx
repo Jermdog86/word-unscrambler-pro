@@ -44,6 +44,7 @@ export function UnscramblerApp({ initialLetters = "" }: UnscramblerAppProps) {
   const [selectedWord, setSelectedWord] = useState<string | null>(null);
   const [selectedScore, setSelectedScore] = useState(0);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  const [shareUrl, setShareUrl] = useState("");
 
   const inputRef = useRef<HTMLInputElement | null>(null);
 
@@ -199,8 +200,11 @@ export function UnscramblerApp({ initialLetters = "" }: UnscramblerAppProps) {
     return `${window.location.origin}${slug}?${params.toString()}`;
   }, [filters, gameMode, normalizedInput]);
 
-  const shareUrl = typeof window !== "undefined" ? buildShareUrl() : "";
   const shareText = `Unscramble ${normalizedInput || "letters"} instantly with filters and Scrabble scores.`;
+
+  useEffect(() => {
+    setShareUrl(buildShareUrl());
+  }, [buildShareUrl]);
 
   const onGameModeChange = (mode: GameMode) => {
     setGameMode(mode);
@@ -514,7 +518,11 @@ export function UnscramblerApp({ initialLetters = "" }: UnscramblerAppProps) {
                 className="rounded-md border border-input px-3 py-2 text-sm hover:bg-muted"
                 target="_blank"
                 rel="noreferrer"
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`}
+                href={
+                  shareUrl
+                    ? `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`
+                    : "#"
+                }
               >
                 Share on X
               </a>
@@ -522,7 +530,7 @@ export function UnscramblerApp({ initialLetters = "" }: UnscramblerAppProps) {
                 className="rounded-md border border-input px-3 py-2 text-sm hover:bg-muted"
                 target="_blank"
                 rel="noreferrer"
-                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
+                href={shareUrl ? `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}` : "#"}
               >
                 Share on Facebook
               </a>
