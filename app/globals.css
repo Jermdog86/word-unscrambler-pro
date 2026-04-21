@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.75rem;
+  --background: 220 27% 7%;
+  --foreground: 210 20% 96%;
+  --card: 222 26% 10%;
+  --card-foreground: 210 20% 96%;
+  --primary: 168 76% 45%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 220 17% 16%;
+  --muted-foreground: 215 14% 70%;
+  --border: 220 15% 20%;
+  --input: 220 16% 18%;
+  --ring: 168 76% 45%;
+}
+
+.light {
+  --background: 38 33% 97%;
+  --foreground: 220 27% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 27% 12%;
+  --primary: 185 90% 34%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 36 42% 92%;
+  --muted-foreground: 220 14% 40%;
+  --border: 220 16% 84%;
+  --input: 220 16% 90%;
+  --ring: 185 90% 34%;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  font-family: "Satoshi", "Avenir Next", "Segoe UI", sans-serif;
+  background-image: radial-gradient(circle at 10% 0%, rgba(20, 184, 166, 0.16), transparent 45%),
+    radial-gradient(circle at 100% 20%, rgba(14, 116, 144, 0.14), transparent 42%),
+    linear-gradient(160deg, rgba(255, 255, 255, 0.02), transparent 28%);
+  background-attachment: fixed;
+}
+
+* {
+  @apply border-border;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Manrope", "Avenir Next", sans-serif;
+}
+
+::selection {
+  @apply bg-primary/30;
+}
+
+@layer utilities {
+  .glass {
+    @apply border border-white/10 bg-white/5 backdrop-blur-md;
+  }
+
+  .surface {
+    @apply border border-border/60 bg-card/50 shadow-[0_14px_40px_-22px_rgba(0,0,0,0.55)];
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .stagger-in {
+    animation: fade-up 0.45s ease-out both;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(148, 163, 184, 0.4);
+}
