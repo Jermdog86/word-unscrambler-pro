@@ -30,7 +30,7 @@ export const SCRABBLE_POINTS: Record<string, number> = {
 };
 
 export const defaultFilters: Filters = {
-  minLength: 2,
+  minLength: 1,
   maxLength: 15,
   startsWith: "",
   endsWith: "",

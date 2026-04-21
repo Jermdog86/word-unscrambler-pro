@@ -265,7 +265,7 @@ export function UnscramblerApp({ initialLetters = "" }: UnscramblerAppProps) {
                 value={filters.minLength}
                 onChange={(event) => setFilters((prev) => ({ ...prev, minLength: Number(event.target.value) }))}
               >
-                {Array.from({ length: 14 }, (_, idx) => idx + 2).map((value) => (
+                {Array.from({ length: 15 }, (_, idx) => idx + 1).map((value) => (
                   <option key={value} value={value}>
                     {value}
                   </option>
@@ -281,7 +281,7 @@ export function UnscramblerApp({ initialLetters = "" }: UnscramblerAppProps) {
                 value={filters.maxLength}
                 onChange={(event) => setFilters((prev) => ({ ...prev, maxLength: Number(event.target.value) }))}
               >
-                {Array.from({ length: 14 }, (_, idx) => idx + 2).map((value) => (
+                {Array.from({ length: 15 }, (_, idx) => idx + 1).map((value) => (
                   <option key={value} value={value}>
                     {value}
                   </option>
