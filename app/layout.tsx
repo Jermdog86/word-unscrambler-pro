@@ -6,9 +6,10 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { PwaRegister } from "@/components/pwa-register";
 import { PwaInstallButton } from "@/components/pwa-install-button";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example-unscrambler.com"),
+  metadataBase: new URL("https://word-unscrambler-pro.vercel.app"),
   title: {
     default: "Word Unscrambler Pro - Instant Scrabble and Word Finder",
     template: "%s | Word Unscrambler Pro"
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     description:
       "Find valid words from scrambled letters instantly. Supports wildcards, filters, and sharing.",
     type: "website",
-    url: "https://example-unscrambler.com",
+    url: "https://word-unscrambler-pro.vercel.app",
     siteName: "Word Unscrambler Pro"
   },
   twitter: {
@@ -50,6 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-6247519976767626" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6247519976767626"
@@ -73,6 +75,7 @@ export default function RootLayout({
             {children}
           </div>
           <PwaRegister />
+          <Analytics />
           <Toaster richColors position="top-right" />
         </ThemeProvider>
       </body>

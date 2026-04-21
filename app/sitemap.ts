@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { popularExamples } from "@/lib/constants";
 import { getTopStaticLetters } from "@/lib/seo";
 
-const base = "https://example-unscrambler.com";
+const base = "https://word-unscrambler-pro.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
