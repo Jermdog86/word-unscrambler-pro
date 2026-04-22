@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { UnscramblerApp } from "@/components/unscrambler-app";
 import { faqItems, popularExamples } from "@/lib/constants";
+import { getLatestBlogPosts } from "@/lib/blog";
+
+export const revalidate = 3600;
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: "Word Unscrambler - Unscramble Letters for Scrabble, Wordle, WWF",
@@ -12,6 +17,8 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
+  const latestPosts = getLatestBlogPosts(3);
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -25,9 +32,22 @@ export default function HomePage() {
     }))
   };
 
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Word Unscrambler Pro",
+    url: "https://word-unscrambler-pro.vercel.app",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://word-unscrambler-pro.vercel.app/unscramble/{letters}",
+      "query-input": "required name=letters"
+    }
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <UnscramblerApp />
 
       <section className="mt-12 grid gap-5 rounded-xl border border-border/70 bg-card/50 p-5 sm:grid-cols-2">
@@ -67,6 +87,26 @@ export default function HomePage() {
             </article>
           ))}
         </div>
+      </section>
+
+      <section className="mt-8 rounded-xl border border-border/70 bg-card/40 p-5">
+        <div className="flex items-center justify-between gap-2">
+          <h2 className="text-xl font-semibold">Latest Blog Guides</h2>
+          <Link href="/blog" className="text-sm underline-offset-4 hover:underline">
+            View all posts
+          </Link>
+        </div>
+        <ul className="mt-3 space-y-3">
+          {latestPosts.map((post) => (
+            <li key={post.slug} className="rounded-lg border border-border/70 bg-background/35 p-3">
+              <p className="text-xs text-muted-foreground">{post.publishedAt}</p>
+              <Link href={`/blog/${post.slug}`} className="mt-1 block font-medium underline-offset-4 hover:underline">
+                {post.title}
+              </Link>
+              <p className="mt-1 text-sm text-muted-foreground">{post.excerpt}</p>
+            </li>
+          ))}
+        </ul>
       </section>
     </>
   );

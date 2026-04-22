@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -38,7 +39,10 @@ export const metadata: Metadata = {
     description: "Unscramble letters for Scrabble, Wordle, and more in milliseconds."
   },
   alternates: {
-    canonical: "/"
+    canonical: "/",
+    types: {
+      "application/rss+xml": "https://word-unscrambler-pro.vercel.app/rss.xml"
+    }
   },
   manifest: "/manifest.webmanifest"
 };
@@ -62,17 +66,51 @@ export default function RootLayout({
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <div className="mx-auto min-h-screen w-full max-w-7xl px-4 pb-16 pt-6 sm:px-6 lg:px-8">
-            <header className="mb-5 flex items-center justify-between gap-4">
-              <div>
-                <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground">Free, instant, unlimited</p>
-                <h1 className="text-2xl font-semibold sm:text-3xl">Word Unscrambler Pro</h1>
+            <header className="mb-5 space-y-3">
+              <div className="flex items-center justify-between gap-4">
+                <div>
+                  <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground">Free, instant, unlimited</p>
+                  <h1 className="text-2xl font-semibold sm:text-3xl">Word Unscrambler Pro</h1>
+                </div>
+                <div className="flex items-center gap-2">
+                  <PwaInstallButton />
+                  <ThemeToggle />
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <PwaInstallButton />
-                <ThemeToggle />
-              </div>
+              <nav className="flex flex-wrap gap-2 text-xs sm:text-sm">
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/">
+                  Unscrambler
+                </Link>
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/blog">
+                  Blog
+                </Link>
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/examples">
+                  Examples
+                </Link>
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/about">
+                  About
+                </Link>
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/editorial-policy">
+                  Editorial Policy
+                </Link>
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/privacy-policy">
+                  Privacy
+                </Link>
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/terms">
+                  Terms
+                </Link>
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/advertising-disclosure">
+                  Ad Disclosure
+                </Link>
+                <Link className="rounded-full border border-border px-3 py-1 hover:border-primary" href="/contact">
+                  Contact
+                </Link>
+              </nav>
             </header>
             {children}
+            <footer className="mt-10 border-t border-border/70 pt-4 text-xs text-muted-foreground">
+              <p>Educational word game tools and articles. Updated regularly.</p>
+            </footer>
           </div>
           <PwaRegister />
           <Analytics />

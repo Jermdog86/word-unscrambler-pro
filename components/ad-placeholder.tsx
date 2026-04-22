@@ -23,10 +23,7 @@ export function AdPlaceholder({
   useEffect(() => {
     try {
       if (typeof window !== "undefined" && (window as unknown as WindowWithAdSense).adsbygoogle) {
-        ((window as unknown as WindowWithAdSense).adsbygoogle = (window as unknown as WindowWithAdSense).adsbygoogle || []).push({
-          google_ad_client: "ca-pub-6247519976767626",
-          enable_page_level_ads: true
-        });
+        ((window as unknown as WindowWithAdSense).adsbygoogle = (window as unknown as WindowWithAdSense).adsbygoogle || []).push({});
       }
     } catch {
       console.log("AdSense ads not yet ready");

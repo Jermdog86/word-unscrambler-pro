@@ -1,0 +1,251 @@
+{
+  "schedule": {
+    "author": "Word Unscrambler Pro Team",
+    "cadenceDays": 14,
+    "queueStartDate": "2026-05-01"
+  },
+  "backdatedPosts": [
+    {
+      "slug": "win-more-with-short-racks",
+      "title": "How to Win More Games With Short Letter Racks",
+      "excerpt": "Short racks are where most players lose tempo. Learn a repeatable process for 3 to 5 letter opportunities.",
+      "tags": ["strategy", "scrabble", "beginner"],
+      "publishedAt": "2024-04-08",
+      "coverHint": "Scrabble tiles on board",
+      "content": [
+        "When your rack looks weak, your goal is not always a big score. Your first goal is to keep board control and preserve flexible letters for the next turn.",
+        "Start by scanning for two-letter and three-letter hooks. If a play scores 14 now but opens a triple lane, it may be worse than a 10-point move that closes the board.",
+        "Use our word finder with min and max filters set to 3-5 letters and sort by score. This gives you practical options that are actually playable under pressure.",
+        "As a weekly exercise, take ten random racks and list three safe plays before picking your best one. Pattern repetition improves speed more than memorizing long rare words."
+      ]
+    },
+    {
+      "slug": "best-way-to-use-blank-tiles",
+      "title": "The Best Way to Use Blank Tiles Without Wasting Them",
+      "excerpt": "Blank tiles feel powerful, but many players burn them too early. Use this timing framework to maximize value.",
+      "tags": ["wildcards", "advanced", "word-finder"],
+      "publishedAt": "2024-04-22",
+      "coverHint": "Blank tile next to high letters",
+      "content": [
+        "A blank tile often creates your highest leverage move in the next two turns, not necessarily this turn. Think in two-turn sequences.",
+        "If a blank only upgrades a play from 18 to 24 points and leaves your rack clunky, hold it unless you are blocking a premium square threat.",
+        "In the unscrambler, enter a question mark and test multiple placements. Compare whether the blank helps form balanced leave combinations such as AEINRST patterns.",
+        "Late game is different. Once the bag is nearly empty, immediate points and board denial become more important than leave quality."
+      ]
+    },
+    {
+      "slug": "wordle-helper-without-spoilers",
+      "title": "How to Use a Wordle Helper Without Spoiling the Puzzle",
+      "excerpt": "A disciplined helper workflow keeps the challenge fun while avoiding random guessing.",
+      "tags": ["wordle", "workflow", "puzzle"],
+      "publishedAt": "2024-05-06",
+      "coverHint": "Word game notes and letters",
+      "content": [
+        "Treat your helper like a filter, not an answer machine. Start with known letters, then use excludes for every gray tile.",
+        "Set min and max length to five and use starts-with or contains only when you have confirmed evidence from the board.",
+        "After each guess, update constraints before checking candidates again. This keeps your choices principled and prevents tunnel vision.",
+        "If too many words remain, prioritize those with new high-frequency letters. Information gain beats lucky guesses over time."
+      ]
+    },
+    {
+      "slug": "high-scoring-q-plays-without-u",
+      "title": "High Scoring Q Plays Without U: Practical Patterns",
+      "excerpt": "You do not always need U after Q. Learn realistic words and board setups that rescue awkward racks.",
+      "tags": ["scrabble", "high-score", "patterns"],
+      "publishedAt": "2024-05-20",
+      "coverHint": "Letter Q tile closeup",
+      "content": [
+        "The common mistake is hoarding Q until it becomes dead weight. You should actively scan for QI, QAID, QAT, and similar legal options in your word list.",
+        "Even a medium score can be excellent if it unclogs your rack and restores mobility on your next turn.",
+        "Use the contains filter with Q and sort by score. This quickly surfaces realistic exits instead of forcing bingo fantasies.",
+        "Practice spotting Q anchors around parallel lanes. Most strong Q turns come from tactical board geometry, not memorized long words."
+      ]
+    },
+    {
+      "slug": "anagram-drills-you-can-do-in-10-minutes",
+      "title": "10-Minute Anagram Drills That Actually Improve Speed",
+      "excerpt": "Short daily drills beat occasional long sessions. Build rapid recognition with a structured routine.",
+      "tags": ["training", "anagrams", "productivity"],
+      "publishedAt": "2024-06-03",
+      "coverHint": "Notebook with anagram practice",
+      "content": [
+        "Pick five racks and set a two-minute timer for each. List as many words as possible, then compare with the solver output.",
+        "Track misses in a simple notebook. Repeated misses reveal your weak letter patterns, which are easier to fix than broad vocabulary gaps.",
+        "Rotate between short racks and six-to-seven-letter racks through the week to avoid overfitting one style.",
+        "Consistency matters more than volume. Ten focused minutes each day compounds into faster board decisions."
+      ]
+    },
+    {
+      "slug": "defensive-play-when-you-are-ahead",
+      "title": "Defensive Play When You Are Ahead on the Scoreboard",
+      "excerpt": "Closing the game safely requires different instincts than chasing points.",
+      "tags": ["defense", "matchplay", "strategy"],
+      "publishedAt": "2024-06-17",
+      "coverHint": "Board game endgame position",
+      "content": [
+        "When leading, evaluate every move for counterplay risk first and points second.",
+        "Avoid opening fresh premium lanes unless your play blocks a larger threat elsewhere.",
+        "The safest move is often one that keeps your leave playable while reducing hooks around existing hotspots.",
+        "A simple check: if your move lets a trailing opponent hit a triple with common letters, reconsider before committing."
+      ]
+    }
+  ],
+  "scheduledDrafts": [
+    {
+      "slug": "quick-guide-to-balanced-rack-leaves",
+      "title": "A Quick Guide to Balanced Rack Leaves",
+      "excerpt": "Leave quality decides long games. Learn what a healthy rack looks like after each move.",
+      "tags": ["rack-management", "intermediate", "scrabble"],
+      "coverHint": "Tiles arranged by vowel and consonant",
+      "content": [
+        "A balanced leave usually mixes vowels and consonants and avoids duplicated low-flexibility letters.",
+        "Racks like AEINRT create many continuation options. Racks with clumped consonants force desperate low-value plays.",
+        "Use the tool after each practice game to review alternatives that would have left stronger combinations.",
+        "Over time, you will spot when a lower immediate score is worth it because it preserves a premium next turn."
+      ]
+    },
+    {
+      "slug": "common-mistakes-with-contains-filter",
+      "title": "Common Mistakes With the Contains Filter and How to Fix Them",
+      "excerpt": "Filter misuse can hide strong candidates. Use constraints in the right order.",
+      "tags": ["tool-tips", "filters", "workflow"],
+      "coverHint": "Search filter controls",
+      "content": [
+        "Adding too many contain letters too early over-constrains results and makes you think no play exists.",
+        "Start broad with length and excludes. Add contains only for confirmed board constraints.",
+        "If your result list collapses suddenly, remove one filter at a time to find the accidental blocker.",
+        "This step-by-step narrowing mirrors how strong players evaluate options under time pressure."
+      ]
+    },
+    {
+      "slug": "how-to-build-a-pre-game-word-warmup",
+      "title": "Build a 5-Minute Pre-Game Word Warmup",
+      "excerpt": "A tiny warmup can improve opening move quality and confidence.",
+      "tags": ["routine", "warmup", "focus"],
+      "coverHint": "Coffee and game tiles",
+      "content": [
+        "Before your first game, run three quick racks through the solver and identify your top two moves for each.",
+        "Focus on board safety and leave quality, not just raw score.",
+        "This primes your pattern recognition and reduces slow starts where early mistakes snowball.",
+        "Keep the routine short enough that you can maintain it consistently before every session."
+      ]
+    },
+    {
+      "slug": "seo-friendly-unscramble-pages-that-help-players",
+      "title": "SEO-Friendly Unscramble Pages That Still Help Real Players",
+      "excerpt": "High quality content can rank and stay useful. Here is the structure we use for intent-focused pages.",
+      "tags": ["seo", "content", "best-practices"],
+      "coverHint": "Website analytics dashboard",
+      "content": [
+        "Each page should solve a real question: specific rack ideas, filter strategies, and playable examples.",
+        "Avoid thin pages that only repeat keyword variations. Add practical guidance and contextual examples.",
+        "Internal links should connect related tactics, not just chase crawl depth.",
+        "When content quality is high, monetization works better because users stay longer and trust the resource."
+      ]
+    },
+    {
+      "slug": "endgame-tile-tracking-in-simple-steps",
+      "title": "Endgame Tile Tracking in Simple Steps",
+      "excerpt": "Tile tracking sounds advanced, but a lightweight method gives immediate tactical advantage.",
+      "tags": ["endgame", "tracking", "advanced"],
+      "coverHint": "Checklist and letter bag",
+      "content": [
+        "Track only high-impact letters first: blanks, S, and premium consonants. You do not need full perfect tracking to gain value.",
+        "As the bag shrinks, estimate likely opponent holdings and choose moves that deny their best lanes.",
+        "Use your solver for candidate generation, then validate each candidate against expected opponent threats.",
+        "This method improves closing decisions without adding heavy mental load."
+      ]
+    },
+    {
+      "slug": "weekly-word-game-practice-template",
+      "title": "A Weekly Word Game Practice Template You Can Reuse",
+      "excerpt": "Use this simple weekly structure to improve consistently without burnout.",
+      "tags": ["practice", "template", "improvement"],
+      "coverHint": "Weekly planner with game notes",
+      "content": [
+        "Day 1: short rack speed drills. Day 2: blank tile scenarios. Day 3: defensive boards. Day 4: endgame tracking. Day 5: review mistakes.",
+        "Keep sessions short and measurable. Improvement comes from feedback loops, not marathon sessions.",
+        "Document one lesson after each session and revisit lessons weekly.",
+        "Small disciplined practice blocks produce steady rating gains over months."
+      ]
+    },
+    {
+      "slug": "board-control-vs-raw-points",
+      "title": "Board Control vs Raw Points: Choosing the Better Turn",
+      "excerpt": "The highest score this turn is not always the highest expected value for the next three turns.",
+      "tags": ["strategy", "decision-making", "intermediate"],
+      "coverHint": "Strategic board position",
+      "content": [
+        "Strong players evaluate options in context: score now, leave quality, and what premium lanes remain open.",
+        "A 24-point move can be better than a 34-point move if it prevents an obvious counterplay lane.",
+        "Use your tool output to generate candidates, then rank them by opponent risk before finalizing.",
+        "This approach increases win rate in close games where board geometry matters more than one-turn points."
+      ]
+    },
+    {
+      "slug": "three-minute-post-game-review-routine",
+      "title": "The 3-Minute Post-Game Review Routine",
+      "excerpt": "A short review habit after each game can accelerate improvement more than extra grinding.",
+      "tags": ["review", "improvement", "routine"],
+      "coverHint": "Post-game checklist",
+      "content": [
+        "Right after a game, capture one missed tactical opportunity and one rack-management decision you would change.",
+        "Replay only the key turns that changed momentum rather than reviewing every move.",
+        "Compare your choices to solver alternatives with similar rack constraints and board shape.",
+        "This targeted review loop builds practical intuition without adding a heavy time burden."
+      ]
+    },
+    {
+      "slug": "openings-that-preserve-flexibility",
+      "title": "Opening Moves That Preserve Rack Flexibility",
+      "excerpt": "Early-game rack balance creates downstream scoring opportunities.",
+      "tags": ["openings", "rack-management", "scrabble"],
+      "coverHint": "Opening move on board",
+      "content": [
+        "On the first two turns, avoid overcommitting high-value consonants unless the score gain is clearly superior.",
+        "Flexible leaves are often worth more than a small early lead because they expand your turn-three options.",
+        "Use min-length filters to explore compact openings that maintain vowel-consonant balance.",
+        "Track opening outcomes in your notes to identify which racks consistently lead to strong mid-game positions."
+      ]
+    },
+    {
+      "slug": "how-to-practice-letter-patterns-by-theme",
+      "title": "Practice Letter Patterns by Theme for Faster Recall",
+      "excerpt": "Grouping drills by pattern families improves retrieval speed during live games.",
+      "tags": ["training", "patterns", "memory"],
+      "coverHint": "Pattern drill notes",
+      "content": [
+        "Instead of random drills, group sessions by pattern themes like common suffixes, vowel-heavy racks, or Q/X exits.",
+        "Themed repetition strengthens pattern lookup under time pressure.",
+        "Use your history of missed words to pick themes for the next week of practice.",
+        "This method converts isolated mistakes into a structured improvement plan."
+      ]
+    },
+    {
+      "slug": "mistakes-to-avoid-in-endgame-races",
+      "title": "Mistakes to Avoid in Endgame Races",
+      "excerpt": "Endgames are won by sequencing and tile awareness, not just point chasing.",
+      "tags": ["endgame", "tactics", "advanced"],
+      "coverHint": "Late-game board race",
+      "content": [
+        "Do not ignore leave value when the bag is low; sequencing still matters in two-turn races.",
+        "Estimate opponent outs before taking a flashy score that gives them a clean finish lane.",
+        "Review likely unseen tiles and choose moves that maximize your own finish flexibility.",
+        "Reliable endgame decisions come from disciplined tracking and threat-first analysis."
+      ]
+    },
+    {
+      "slug": "weekly-scrabble-study-plan-for-busy-players",
+      "title": "Weekly Scrabble Study Plan for Busy Players",
+      "excerpt": "A realistic schedule for improvement when you only have 20 to 30 minutes a day.",
+      "tags": ["study-plan", "busy-players", "consistency"],
+      "coverHint": "Weekly calendar and tiles",
+      "content": [
+        "Use short weekday sessions for pattern drills and one longer weekend session for reviewed games.",
+        "Assign each day a theme to avoid decision fatigue: blanks, rack leaves, openings, defense, endgame.",
+        "Measure one KPI weekly, such as average score of top candidate moves on reviewed turns.",
+        "Small consistent sessions often outperform irregular long sessions for long-term retention."
+      ]
+    }
+  ]
+}

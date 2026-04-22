@@ -90,6 +90,31 @@ To activate AdSense:
 4. Add board-position helper mode (must-use letters, fixed tile positions).
 5. Add analytics funnels for search success and filter usage.
 
+## 7) Blog Auto-Publishing Workflow (JSON + RSS)
+
+Blog content is now managed in one file:
+
+- `content/blog-posts.json`
+
+How it works:
+
+1. `backdatedPosts` are published immediately with their explicit `publishedAt` dates.
+2. `scheduledDrafts` are automatically assigned publish dates at regular intervals using:
+   - `schedule.queueStartDate`
+   - `schedule.cadenceDays`
+3. Blog pages and sitemap only show posts with publish dates up to "today".
+4. No manual route updates are needed when new drafts are added.
+
+RSS feed:
+
+- `https://word-unscrambler-pro.vercel.app/rss.xml`
+
+To add future posts automatically:
+
+1. Append a new object to `scheduledDrafts` in `content/blog-posts.json`.
+2. Keep fields complete: `slug`, `title`, `excerpt`, `tags`, `coverHint`, `content`.
+3. Deploy; the post will auto-publish on its assigned cadence date.
+
 ## Tech Stack
 
 - Next.js 15 App Router + TypeScript
