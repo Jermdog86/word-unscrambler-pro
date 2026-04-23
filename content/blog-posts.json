@@ -9,7 +9,11 @@
       "slug": "win-more-with-short-racks",
       "title": "How to Win More Games With Short Letter Racks",
       "excerpt": "Short racks are where most players lose tempo. Learn a repeatable process for 3 to 5 letter opportunities.",
-      "tags": ["strategy", "scrabble", "beginner"],
+      "tags": [
+        "strategy",
+        "scrabble",
+        "beginner"
+      ],
       "publishedAt": "2024-04-08",
       "coverHint": "Scrabble tiles on board",
       "content": [
@@ -23,7 +27,11 @@
       "slug": "best-way-to-use-blank-tiles",
       "title": "The Best Way to Use Blank Tiles Without Wasting Them",
       "excerpt": "Blank tiles feel powerful, but many players burn them too early. Use this timing framework to maximize value.",
-      "tags": ["wildcards", "advanced", "word-finder"],
+      "tags": [
+        "wildcards",
+        "advanced",
+        "word-finder"
+      ],
       "publishedAt": "2024-04-22",
       "coverHint": "Blank tile next to high letters",
       "content": [
@@ -37,7 +45,11 @@
       "slug": "wordle-helper-without-spoilers",
       "title": "How to Use a Wordle Helper Without Spoiling the Puzzle",
       "excerpt": "A disciplined helper workflow keeps the challenge fun while avoiding random guessing.",
-      "tags": ["wordle", "workflow", "puzzle"],
+      "tags": [
+        "wordle",
+        "workflow",
+        "puzzle"
+      ],
       "publishedAt": "2024-05-06",
       "coverHint": "Word game notes and letters",
       "content": [
@@ -51,7 +63,11 @@
       "slug": "high-scoring-q-plays-without-u",
       "title": "High Scoring Q Plays Without U: Practical Patterns",
       "excerpt": "You do not always need U after Q. Learn realistic words and board setups that rescue awkward racks.",
-      "tags": ["scrabble", "high-score", "patterns"],
+      "tags": [
+        "scrabble",
+        "high-score",
+        "patterns"
+      ],
       "publishedAt": "2024-05-20",
       "coverHint": "Letter Q tile closeup",
       "content": [
@@ -65,7 +81,11 @@
       "slug": "anagram-drills-you-can-do-in-10-minutes",
       "title": "10-Minute Anagram Drills That Actually Improve Speed",
       "excerpt": "Short daily drills beat occasional long sessions. Build rapid recognition with a structured routine.",
-      "tags": ["training", "anagrams", "productivity"],
+      "tags": [
+        "training",
+        "anagrams",
+        "productivity"
+      ],
       "publishedAt": "2024-06-03",
       "coverHint": "Notebook with anagram practice",
       "content": [
@@ -79,7 +99,11 @@
       "slug": "defensive-play-when-you-are-ahead",
       "title": "Defensive Play When You Are Ahead on the Scoreboard",
       "excerpt": "Closing the game safely requires different instincts than chasing points.",
-      "tags": ["defense", "matchplay", "strategy"],
+      "tags": [
+        "defense",
+        "matchplay",
+        "strategy"
+      ],
       "publishedAt": "2024-06-17",
       "coverHint": "Board game endgame position",
       "content": [
@@ -88,6 +112,402 @@
         "The safest move is often one that keeps your leave playable while reducing hooks around existing hotspots.",
         "A simple check: if your move lets a trailing opponent hit a triple with common letters, reconsider before committing."
       ]
+    },
+    {
+      "slug": "weekly-blank-tile-timing-2025-11-26",
+      "title": "Weekly Word Strategy: Blank Tile Timing (2025-11-26)",
+      "excerpt": "This week's playbook focuses on blank tile timing so you can make stronger choices under time pressure.",
+      "tags": [
+        "wildcards",
+        "tactics",
+        "scrabble"
+      ],
+      "publishedAt": "2025-11-26",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on blank tile timing before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-rack-balance-2025-12-03",
+      "title": "Weekly Word Strategy: Rack Balance (2025-12-03)",
+      "excerpt": "This week's playbook focuses on rack balance so you can make stronger choices under time pressure.",
+      "tags": [
+        "rack-management",
+        "strategy",
+        "scrabble"
+      ],
+      "publishedAt": "2025-12-03",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on rack balance before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-tempo-management-2025-12-10",
+      "title": "Weekly Word Strategy: Tempo Management (2025-12-10)",
+      "excerpt": "This week's playbook focuses on tempo management so you can make stronger choices under time pressure.",
+      "tags": [
+        "tempo",
+        "midgame",
+        "strategy"
+      ],
+      "publishedAt": "2025-12-10",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on tempo management before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-leave-quality-2025-12-17",
+      "title": "Weekly Word Strategy: Leave Quality (2025-12-17)",
+      "excerpt": "This week's playbook focuses on leave quality so you can make stronger choices under time pressure.",
+      "tags": [
+        "leave-quality",
+        "improvement",
+        "scrabble"
+      ],
+      "publishedAt": "2025-12-17",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on leave quality before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-hook-awareness-2025-12-24",
+      "title": "Weekly Word Strategy: Hook Awareness (2025-12-24)",
+      "excerpt": "This week's playbook focuses on hook awareness so you can make stronger choices under time pressure.",
+      "tags": [
+        "hooks",
+        "pattern-recognition",
+        "training"
+      ],
+      "publishedAt": "2025-12-24",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on hook awareness before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-defensive-turns-2025-12-31",
+      "title": "Weekly Word Strategy: Defensive Turns (2025-12-31)",
+      "excerpt": "This week's playbook focuses on defensive turns so you can make stronger choices under time pressure.",
+      "tags": [
+        "defense",
+        "matchplay",
+        "strategy"
+      ],
+      "publishedAt": "2025-12-31",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on defensive turns before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-scoring-lanes-2026-01-07",
+      "title": "Weekly Word Strategy: Scoring Lanes (2026-01-07)",
+      "excerpt": "This week's playbook focuses on scoring lanes so you can make stronger choices under time pressure.",
+      "tags": [
+        "scoring",
+        "patterns",
+        "intermediate"
+      ],
+      "publishedAt": "2026-01-07",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on scoring lanes before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-opening-move-choices-2026-01-14",
+      "title": "Weekly Word Strategy: Opening Move Choices (2026-01-14)",
+      "excerpt": "This week's playbook focuses on opening move choices so you can make stronger choices under time pressure.",
+      "tags": [
+        "openings",
+        "strategy",
+        "beginner"
+      ],
+      "publishedAt": "2026-01-14",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on opening move choices before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-endgame-tracking-2026-01-21",
+      "title": "Weekly Word Strategy: Endgame Tracking (2026-01-21)",
+      "excerpt": "This week's playbook focuses on endgame tracking so you can make stronger choices under time pressure.",
+      "tags": [
+        "endgame",
+        "tracking",
+        "advanced"
+      ],
+      "publishedAt": "2026-01-21",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on endgame tracking before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-board-control-2026-01-28",
+      "title": "Weekly Word Strategy: Board Control (2026-01-28)",
+      "excerpt": "This week's playbook focuses on board control so you can make stronger choices under time pressure.",
+      "tags": [
+        "board-control",
+        "decision-making",
+        "scrabble"
+      ],
+      "publishedAt": "2026-01-28",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on board control before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-blank-tile-timing-2026-02-04",
+      "title": "Weekly Word Strategy: Blank Tile Timing (2026-02-04)",
+      "excerpt": "This week's playbook focuses on blank tile timing so you can make stronger choices under time pressure.",
+      "tags": [
+        "wildcards",
+        "tactics",
+        "scrabble"
+      ],
+      "publishedAt": "2026-02-04",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on blank tile timing before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-rack-balance-2026-02-11",
+      "title": "Weekly Word Strategy: Rack Balance (2026-02-11)",
+      "excerpt": "This week's playbook focuses on rack balance so you can make stronger choices under time pressure.",
+      "tags": [
+        "rack-management",
+        "strategy",
+        "scrabble"
+      ],
+      "publishedAt": "2026-02-11",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on rack balance before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-tempo-management-2026-02-18",
+      "title": "Weekly Word Strategy: Tempo Management (2026-02-18)",
+      "excerpt": "This week's playbook focuses on tempo management so you can make stronger choices under time pressure.",
+      "tags": [
+        "tempo",
+        "midgame",
+        "strategy"
+      ],
+      "publishedAt": "2026-02-18",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on tempo management before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-leave-quality-2026-02-25",
+      "title": "Weekly Word Strategy: Leave Quality (2026-02-25)",
+      "excerpt": "This week's playbook focuses on leave quality so you can make stronger choices under time pressure.",
+      "tags": [
+        "leave-quality",
+        "improvement",
+        "scrabble"
+      ],
+      "publishedAt": "2026-02-25",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on leave quality before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-hook-awareness-2026-03-04",
+      "title": "Weekly Word Strategy: Hook Awareness (2026-03-04)",
+      "excerpt": "This week's playbook focuses on hook awareness so you can make stronger choices under time pressure.",
+      "tags": [
+        "hooks",
+        "pattern-recognition",
+        "training"
+      ],
+      "publishedAt": "2026-03-04",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on hook awareness before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-defensive-turns-2026-03-11",
+      "title": "Weekly Word Strategy: Defensive Turns (2026-03-11)",
+      "excerpt": "This week's playbook focuses on defensive turns so you can make stronger choices under time pressure.",
+      "tags": [
+        "defense",
+        "matchplay",
+        "strategy"
+      ],
+      "publishedAt": "2026-03-11",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on defensive turns before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-scoring-lanes-2026-03-18",
+      "title": "Weekly Word Strategy: Scoring Lanes (2026-03-18)",
+      "excerpt": "This week's playbook focuses on scoring lanes so you can make stronger choices under time pressure.",
+      "tags": [
+        "scoring",
+        "patterns",
+        "intermediate"
+      ],
+      "publishedAt": "2026-03-18",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on scoring lanes before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-opening-move-choices-2026-03-25",
+      "title": "Weekly Word Strategy: Opening Move Choices (2026-03-25)",
+      "excerpt": "This week's playbook focuses on opening move choices so you can make stronger choices under time pressure.",
+      "tags": [
+        "openings",
+        "strategy",
+        "beginner"
+      ],
+      "publishedAt": "2026-03-25",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on opening move choices before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-endgame-tracking-2026-04-01",
+      "title": "Weekly Word Strategy: Endgame Tracking (2026-04-01)",
+      "excerpt": "This week's playbook focuses on endgame tracking so you can make stronger choices under time pressure.",
+      "tags": [
+        "endgame",
+        "tracking",
+        "advanced"
+      ],
+      "publishedAt": "2026-04-01",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on endgame tracking before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-board-control-2026-04-08",
+      "title": "Weekly Word Strategy: Board Control (2026-04-08)",
+      "excerpt": "This week's playbook focuses on board control so you can make stronger choices under time pressure.",
+      "tags": [
+        "board-control",
+        "decision-making",
+        "scrabble"
+      ],
+      "publishedAt": "2026-04-08",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on board control before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-blank-tile-timing-2026-04-15",
+      "title": "Weekly Word Strategy: Blank Tile Timing (2026-04-15)",
+      "excerpt": "This week's playbook focuses on blank tile timing so you can make stronger choices under time pressure.",
+      "tags": [
+        "wildcards",
+        "tactics",
+        "scrabble"
+      ],
+      "publishedAt": "2026-04-15",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on blank tile timing before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
+    },
+    {
+      "slug": "weekly-rack-balance-2026-04-22",
+      "title": "Weekly Word Strategy: Rack Balance (2026-04-22)",
+      "excerpt": "This week's playbook focuses on rack balance so you can make stronger choices under time pressure.",
+      "tags": [
+        "rack-management",
+        "strategy",
+        "scrabble"
+      ],
+      "publishedAt": "2026-04-22",
+      "coverHint": "Scrabble board strategy notes",
+      "content": [
+        "This week, focus on rack balance before chasing peak score on every turn. Small structural decisions create consistent wins over long matches.",
+        "Generate three candidate plays, then compare immediate points, rack leave, and what premium squares you open for the opponent.",
+        "Run post-game review on only two critical turns where momentum shifted. This keeps analysis practical and repeatable.",
+        "Repeat this routine for five games and track one KPI: how often your chosen move matches your best two-turn expected outcome."
+      ]
     }
   ],
   "scheduledDrafts": [
@@ -95,7 +515,11 @@
       "slug": "quick-guide-to-balanced-rack-leaves",
       "title": "A Quick Guide to Balanced Rack Leaves",
       "excerpt": "Leave quality decides long games. Learn what a healthy rack looks like after each move.",
-      "tags": ["rack-management", "intermediate", "scrabble"],
+      "tags": [
+        "rack-management",
+        "intermediate",
+        "scrabble"
+      ],
       "coverHint": "Tiles arranged by vowel and consonant",
       "content": [
         "A balanced leave usually mixes vowels and consonants and avoids duplicated low-flexibility letters.",
@@ -108,7 +532,11 @@
       "slug": "common-mistakes-with-contains-filter",
       "title": "Common Mistakes With the Contains Filter and How to Fix Them",
       "excerpt": "Filter misuse can hide strong candidates. Use constraints in the right order.",
-      "tags": ["tool-tips", "filters", "workflow"],
+      "tags": [
+        "tool-tips",
+        "filters",
+        "workflow"
+      ],
       "coverHint": "Search filter controls",
       "content": [
         "Adding too many contain letters too early over-constrains results and makes you think no play exists.",
@@ -121,7 +549,11 @@
       "slug": "how-to-build-a-pre-game-word-warmup",
       "title": "Build a 5-Minute Pre-Game Word Warmup",
       "excerpt": "A tiny warmup can improve opening move quality and confidence.",
-      "tags": ["routine", "warmup", "focus"],
+      "tags": [
+        "routine",
+        "warmup",
+        "focus"
+      ],
       "coverHint": "Coffee and game tiles",
       "content": [
         "Before your first game, run three quick racks through the solver and identify your top two moves for each.",
@@ -134,7 +566,11 @@
       "slug": "seo-friendly-unscramble-pages-that-help-players",
       "title": "SEO-Friendly Unscramble Pages That Still Help Real Players",
       "excerpt": "High quality content can rank and stay useful. Here is the structure we use for intent-focused pages.",
-      "tags": ["seo", "content", "best-practices"],
+      "tags": [
+        "seo",
+        "content",
+        "best-practices"
+      ],
       "coverHint": "Website analytics dashboard",
       "content": [
         "Each page should solve a real question: specific rack ideas, filter strategies, and playable examples.",
@@ -147,7 +583,11 @@
       "slug": "endgame-tile-tracking-in-simple-steps",
       "title": "Endgame Tile Tracking in Simple Steps",
       "excerpt": "Tile tracking sounds advanced, but a lightweight method gives immediate tactical advantage.",
-      "tags": ["endgame", "tracking", "advanced"],
+      "tags": [
+        "endgame",
+        "tracking",
+        "advanced"
+      ],
       "coverHint": "Checklist and letter bag",
       "content": [
         "Track only high-impact letters first: blanks, S, and premium consonants. You do not need full perfect tracking to gain value.",
@@ -160,7 +600,11 @@
       "slug": "weekly-word-game-practice-template",
       "title": "A Weekly Word Game Practice Template You Can Reuse",
       "excerpt": "Use this simple weekly structure to improve consistently without burnout.",
-      "tags": ["practice", "template", "improvement"],
+      "tags": [
+        "practice",
+        "template",
+        "improvement"
+      ],
       "coverHint": "Weekly planner with game notes",
       "content": [
         "Day 1: short rack speed drills. Day 2: blank tile scenarios. Day 3: defensive boards. Day 4: endgame tracking. Day 5: review mistakes.",
@@ -173,7 +617,11 @@
       "slug": "board-control-vs-raw-points",
       "title": "Board Control vs Raw Points: Choosing the Better Turn",
       "excerpt": "The highest score this turn is not always the highest expected value for the next three turns.",
-      "tags": ["strategy", "decision-making", "intermediate"],
+      "tags": [
+        "strategy",
+        "decision-making",
+        "intermediate"
+      ],
       "coverHint": "Strategic board position",
       "content": [
         "Strong players evaluate options in context: score now, leave quality, and what premium lanes remain open.",
@@ -186,7 +634,11 @@
       "slug": "three-minute-post-game-review-routine",
       "title": "The 3-Minute Post-Game Review Routine",
       "excerpt": "A short review habit after each game can accelerate improvement more than extra grinding.",
-      "tags": ["review", "improvement", "routine"],
+      "tags": [
+        "review",
+        "improvement",
+        "routine"
+      ],
       "coverHint": "Post-game checklist",
       "content": [
         "Right after a game, capture one missed tactical opportunity and one rack-management decision you would change.",
@@ -199,7 +651,11 @@
       "slug": "openings-that-preserve-flexibility",
       "title": "Opening Moves That Preserve Rack Flexibility",
       "excerpt": "Early-game rack balance creates downstream scoring opportunities.",
-      "tags": ["openings", "rack-management", "scrabble"],
+      "tags": [
+        "openings",
+        "rack-management",
+        "scrabble"
+      ],
       "coverHint": "Opening move on board",
       "content": [
         "On the first two turns, avoid overcommitting high-value consonants unless the score gain is clearly superior.",
@@ -212,7 +668,11 @@
       "slug": "how-to-practice-letter-patterns-by-theme",
       "title": "Practice Letter Patterns by Theme for Faster Recall",
       "excerpt": "Grouping drills by pattern families improves retrieval speed during live games.",
-      "tags": ["training", "patterns", "memory"],
+      "tags": [
+        "training",
+        "patterns",
+        "memory"
+      ],
       "coverHint": "Pattern drill notes",
       "content": [
         "Instead of random drills, group sessions by pattern themes like common suffixes, vowel-heavy racks, or Q/X exits.",
@@ -225,7 +685,11 @@
       "slug": "mistakes-to-avoid-in-endgame-races",
       "title": "Mistakes to Avoid in Endgame Races",
       "excerpt": "Endgames are won by sequencing and tile awareness, not just point chasing.",
-      "tags": ["endgame", "tactics", "advanced"],
+      "tags": [
+        "endgame",
+        "tactics",
+        "advanced"
+      ],
       "coverHint": "Late-game board race",
       "content": [
         "Do not ignore leave value when the bag is low; sequencing still matters in two-turn races.",
@@ -238,7 +702,11 @@
       "slug": "weekly-scrabble-study-plan-for-busy-players",
       "title": "Weekly Scrabble Study Plan for Busy Players",
       "excerpt": "A realistic schedule for improvement when you only have 20 to 30 minutes a day.",
-      "tags": ["study-plan", "busy-players", "consistency"],
+      "tags": [
+        "study-plan",
+        "busy-players",
+        "consistency"
+      ],
       "coverHint": "Weekly calendar and tiles",
       "content": [
         "Use short weekday sessions for pattern drills and one longer weekend session for reviewed games.",
