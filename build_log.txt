@@ -1,0 +1,67 @@
+﻿
+> word-unscrambler-pro@1.0.0 prebuild
+> npm run prepare:dictionaries
+
+
+> word-unscrambler-pro@1.0.0 prepare:dictionaries
+> node scripts/build-dictionaries.mjs
+
+Dictionary preparation and compression complete
+Source generated: C:\Users\jermd\OneDrive\Documents\Websites for Passive income\unscrambler\public\dictionaries\words_alpha.txt (274937 words)
+Source generated: C:\Users\jermd\OneDrive\Documents\Websites for Passive income\unscrambler\public\dictionaries\scrabble_words.txt (270663 words)
+C:\Users\jermd\OneDrive\Documents\Websites for Passive income\unscrambler\public\dictionaries\words_alpha.min.json: 274937 words
+C:\Users\jermd\OneDrive\Documents\Websites for Passive income\unscrambler\public\dictionaries\scrabble_words.min.json: 270663 words
+
+> word-unscrambler-pro@1.0.0 build
+> next build
+
+   Γû▓ Next.js 15.5.15
+   - Environments: .env.local
+   - Experiments (use with caution):
+     ┬╖ optimizePackageImports
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully in 3.0s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/60) ...
+   Generating static pages (15/60) 
+   Generating static pages (30/60) 
+   Generating static pages (45/60) 
+ Γ£ô Generating static pages (60/60)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS  Revalidate  Expire
+Γöî Γùï /                                      176 B         129 kB          1h      1y
+Γö£ Γùï /_not-found                            993 B         103 kB
+Γö£ Γùï /about                                 152 B         102 kB
+Γö£ Γùï /advertising-disclosure                152 B         102 kB
+Γö£ ╞Æ /api/cron/generate-blog                152 B         102 kB
+Γö£ Γùï /blog                                  645 B         106 kB          1h      1y
+Γö£ ╞Æ /blog/[slug]                           628 B         103 kB
+Γö£ Γùï /contact                               152 B         102 kB
+Γö£ Γùï /editorial-policy                      152 B         102 kB
+Γö£ Γùï /examples                              161 B         106 kB
+Γö£ Γùï /llms.txt                              152 B         102 kB          1d      1y
+Γö£ Γùï /manifest.webmanifest                  152 B         102 kB
+Γö£ Γùï /privacy-policy                        152 B         102 kB
+Γö£ Γùï /robots.txt                            152 B         102 kB
+Γö£ Γùï /rss.xml                               152 B         102 kB          1h      1y
+Γö£ Γùï /sitemap.xml                           152 B         102 kB          1h      1y
+Γö£ Γùï /terms                                 152 B         102 kB
+Γöö ΓùÅ /unscramble/[letters]                  162 B         126 kB
+    Γö£ /unscramble/retain
+    Γö£ /unscramble/stream
+    Γö£ /unscramble/qz%3Fe
+    Γöö [+39 more paths]
++ First Load JS shared by all             102 kB
+  Γö£ chunks/255-4f212684648fcab9.js         46 kB
+  Γö£ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  Γöö other shared chunks (total)          1.97 kB
+
+
+Γùï  (Static)   prerendered as static content
+ΓùÅ  (SSG)      prerendered as static HTML (uses generateStaticParams)
+╞Æ  (Dynamic)  server-rendered on demand
+

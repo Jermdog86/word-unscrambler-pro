@@ -38,9 +38,9 @@ export default function AdvertisingDisclosurePage() {
             </li>
             <li>
               <strong>Data Usage:</strong> Google AdSense uses cookies and similar tracking technologies to serve personalized ads based on your
-              interests. For information about Google's data practices, see{" "}
+              interests. For information about Google&apos;s data practices, see{" "}
               <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                Google's Privacy Policy
+                Google&apos;s Privacy Policy
               </a>
               .
             </li>
@@ -78,7 +78,7 @@ export default function AdvertisingDisclosurePage() {
           <h3 className="text-xl font-semibold">Sponsored Content Policy</h3>
           <p className="text-sm text-muted-foreground sm:text-base">
             We do not publish paid endorsements disguised as independent advice. If sponsored content or paid partnerships are ever published on our
-            site, they will be clearly labeled as "Sponsored," "Advertisement," or "Paid Partnership" in accordance with FTC guidelines and platform
+            site, they will be clearly labeled as &quot;Sponsored,&quot; &quot;Advertisement,&quot; or &quot;Paid Partnership&quot; in accordance with FTC guidelines and platform
             policies.
           </p>
         </section>

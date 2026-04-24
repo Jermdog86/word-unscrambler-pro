@@ -2,6 +2,20 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 
+type GeneratedPost = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  tags: string[];
+  publishedAt: string;
+  coverHint: string;
+  content: string[];
+};
+
+type BlogDataFile = {
+  backdatedPosts?: GeneratedPost[];
+};
+
 /**
  * Cron endpoint that generates weekly blog posts
  * Triggered by Vercel Cron Jobs (see vercel.json)
@@ -25,7 +39,7 @@ export async function POST(request: NextRequest) {
     // Read the blog posts configuration
     const contentPath = path.join(process.cwd(), "content", "blog-posts.json");
     const raw = fs.readFileSync(contentPath, "utf8");
-    const data = JSON.parse(raw);
+    const data = JSON.parse(raw) as BlogDataFile;
 
     // Calculate the date window for generation
     const todayLocal = new Date();
@@ -66,8 +80,8 @@ export async function POST(request: NextRequest) {
       ["tempo", "midgame", "strategy"]
     ];
 
-    const generated = [];
-    let cursor = new Date(end);
+    const generated: GeneratedPost[] = [];
+    const cursor = new Date(end);
     let i = 0;
 
     while (cursor >= start) {
@@ -99,15 +113,15 @@ export async function POST(request: NextRequest) {
     const startYmd = toYmd(start);
     const endYmd = toYmd(end);
 
-    const inWindow = (post: any) => {
+    const inWindow = (post: GeneratedPost | undefined) => {
       if (!post || !post.publishedAt) return false;
       return post.publishedAt >= startYmd && post.publishedAt <= endYmd;
     };
 
-    const existingBackdated = Array.isArray(data.backdatedPosts) ? data.backdatedPosts : [];
-    const preserved = existingBackdated.filter((p: any) => !inWindow(p));
+    const existingBackdated: GeneratedPost[] = Array.isArray(data.backdatedPosts) ? data.backdatedPosts : [];
+    const preserved = existingBackdated.filter((p) => !inWindow(p));
 
-    data.backdatedPosts = [...preserved, ...generated].sort((a: any, b: any) =>
+    data.backdatedPosts = [...preserved, ...generated].sort((a, b) =>
       a.publishedAt.localeCompare(b.publishedAt)
     );
 
