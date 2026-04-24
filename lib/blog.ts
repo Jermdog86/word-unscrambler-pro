@@ -67,9 +67,25 @@ function buildScheduledPosts(): BlogPost[] {
 
 const allScheduledPosts = buildScheduledPosts();
 
-export function getPublishedBlogPosts(today = new Date()): BlogPost[] {
+function getPublishedPosts(today = new Date()): BlogPost[] {
   const todayIso = toIsoDay(today);
   return allScheduledPosts.filter((post) => post.publishedAt <= todayIso);
+}
+
+function getPostsFromLastSixMonths(today = new Date()): BlogPost[] {
+  const sixMonthsAgo = new Date(today);
+  sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+  const sixMonthsAgoIso = toIsoDay(sixMonthsAgo);
+  
+  return getPublishedPosts(today).filter((post) => post.publishedAt >= sixMonthsAgoIso);
+}
+
+export function getPublishedBlogPosts(today = new Date()): BlogPost[] {
+  return getPublishedPosts(today);
+}
+
+export function getPublishedBlogPostsLastSixMonths(today = new Date()): BlogPost[] {
+  return getPostsFromLastSixMonths(today);
 }
 
 export function getUpcomingBlogPosts(today = new Date()): BlogPost[] {
@@ -78,13 +94,13 @@ export function getUpcomingBlogPosts(today = new Date()): BlogPost[] {
 }
 
 export function getBlogPostBySlug(slug: string, today = new Date()): BlogPost | undefined {
-  return getPublishedBlogPosts(today).find((post) => post.slug === slug);
+  return getPublishedPosts(today).find((post) => post.slug === slug);
 }
 
 export function getAllBlogSlugs(today = new Date()): string[] {
-  return getPublishedBlogPosts(today).map((post) => post.slug);
+  return getPublishedPosts(today).map((post) => post.slug);
 }
 
 export function getLatestBlogPosts(limit = 4, today = new Date()): BlogPost[] {
-  return getPublishedBlogPosts(today).slice(0, limit);
+  return getPublishedPosts(today).slice(0, limit);
 }

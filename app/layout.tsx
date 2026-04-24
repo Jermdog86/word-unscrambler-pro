@@ -10,7 +10,7 @@ import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://word-unscrambler-pro.vercel.app"),
+  metadataBase: new URL("https://unscramble.fyi"),
   title: {
     default: "Word Unscrambler Pro - Instant Scrabble and Word Finder",
     template: "%s | Word Unscrambler Pro"
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description:
       "Find valid words from scrambled letters instantly. Supports wildcards, filters, and sharing.",
     type: "website",
-    url: "https://word-unscrambler-pro.vercel.app",
+    url: "https://unscramble.fyi",
     siteName: "Word Unscrambler Pro"
   },
   twitter: {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
     types: {
-      "application/rss+xml": "https://word-unscrambler-pro.vercel.app/rss.xml"
+      "application/rss+xml": "https://unscramble.fyi/rss.xml"
     }
   },
   manifest: "/manifest.webmanifest"

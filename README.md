@@ -107,13 +107,119 @@ How it works:
 
 RSS feed:
 
-- `https://word-unscrambler-pro.vercel.app/rss.xml`
+- `https://unscramble.fyi/rss.xml`
 
 To add future posts automatically:
 
 1. Append a new object to `scheduledDrafts` in `content/blog-posts.json`.
 2. Keep fields complete: `slug`, `title`, `excerpt`, `tags`, `coverHint`, `content`.
 3. Deploy; the post will auto-publish on its assigned cadence date.
+
+## 8) Automatic Weekly Blog Generation (Vercel Cron Jobs)
+
+The blog generation now runs **automatically every Sunday at 2 AM UTC** via Vercel Cron Jobs.
+
+**What it does:**
+- Generates weekly strategy posts for the last 6 months automatically
+- Updates `content/blog-posts.json` with new posts
+- Prevents duplicate posts in the generated date window
+
+**Setup Required:**
+
+1. **Generate a Cron Secret:**
+   ```bash
+   openssl rand -hex 32
+   ```
+   This produces a secure random string like: `a3f8b2c1d9e4f6a7b8c9d0e1f2a3b4c5`
+
+2. **Add to Vercel Environment Variables:**
+   - Go to Vercel project settings
+   - Environment Variables section
+   - Add new variable:
+     - Name: `CRON_SECRET`
+     - Value: Your generated secret (paste the output from step 1)
+   - Redeploy your project
+
+3. **Verify Cron Job:**
+   - After deployment, check Vercel Dashboard > Cron Jobs
+   - You should see: `/api/cron/generate-blog` scheduled for `0 2 * * 0` (Sundays 2 AM UTC)
+
+The endpoint (`/api/cron/generate-blog`) requires the `CRON_SECRET` for security and will only accept requests from Vercel's internal cron scheduler.
+
+## 9) Google AdSense Setup for Monetization
+
+This site is fully configured for Google AdSense with proper compliance policies.
+
+**Current Implementation:**
+- AdSense Publisher ID: `ca-pub-6247519976767626`
+- Responsive ad placements on blog and content pages
+- Compliance disclosure page at `/advertising-disclosure`
+- Ad placeholders in strategic locations (blog posts, blog index, main content)
+
+**To Complete AdSense Monetization:**
+
+1. **Create/Connect AdSense Account:**
+   - Visit https://www.google.com/adsense/start/
+   - Sign in with your Google account
+   - Enter your domain
+   - Follow verification steps (DNS record or HTML file)
+
+2. **Update Publisher ID:**
+   - Once approved, get your Publisher ID from AdSense dashboard
+   - Update `ca-pub-6247519976767626` with your actual ID in:
+     - `app/layout.tsx` (AdSense script)
+     - `components/ad-placeholder.tsx` (data-ad-client)
+   - Redeploy
+
+3. **Compliance Checklist:**
+   - ✅ AdSense script properly loaded in `app/layout.tsx`
+   - ✅ AdSense Privacy Policy linked in footer/policies
+   - ✅ Advertising Disclosure page available at `/advertising-disclosure`
+   - ✅ Ad density compliant (ads don't exceed 25% of page above fold)
+   - ✅ Editorial content clearly separated from ads
+   - ✅ No invalid activity (click fraud, impressions from automated traffic)
+   - ✅ No policy-violating content (copyright, malware, misleading content)
+
+4. **Supported Ad Formats:**
+   - Responsive display ads (automatically size to container)
+   - In-article ads (between blog paragraphs)
+   - Sidebar ads (desktop only via hidden breakpoints)
+
+5. **Monitoring:**
+   - Check AdSense dashboard regularly for performance metrics
+   - Monitor for policy violations
+   - Track impressions, clicks, and earnings
+   - Use Google Search Console to monitor indexing and search traffic
+
+**Ad Placement Locations:**
+- `/blog` - Top banner, between post cards, bottom section
+- `/blog/[slug]` - Between paragraphs, bottom of article
+- Main pages - Configured in layout as needed
+
+**Important AdSense Policies to Follow:**
+- No more than 3 ad units per page
+- No ads on error pages or 404s
+- No ads covering core content
+- No misleading labels ("Ads by Google" displays automatically)
+- No click-bait or forced interactions
+- No scripts that modify ad display
+- Keep content original and valuable
+
+## 10) Six-Month Blog Display Policy
+
+The blog page now displays only posts from the last 6 months to keep content fresh and relevant.
+
+**Configuration:**
+- Function: `getPublishedBlogPostsLastSixMonths()` in `lib/blog.ts`
+- Used in: `/app/blog/page.tsx`
+- Automatic filtering based on current date
+
+**Full Archive:**
+- Users can access older posts by searching or visiting direct URLs
+- Historical posts remain indexed and accessible
+- Blog API (`getBlogPostBySlug()`) returns all published posts regardless of date
+
+This creates a balance between promoting recent quality content while maintaining SEO value of older posts.
 
 ## Tech Stack
 
@@ -137,3 +243,4 @@ To add future posts automatically:
 - Core unscrambling remains client-side and instant.
 - Wildcards support up to 4 `?` blank tiles.
 - Results are grouped by length with Scrabble score labels and copy controls.
+

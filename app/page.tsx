@@ -36,10 +36,10 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Word Unscrambler Pro",
-    url: "https://word-unscrambler-pro.vercel.app",
+    url: "https://unscramble.fyi",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://word-unscrambler-pro.vercel.app/unscramble/{letters}",
+      target: "https://unscramble.fyi/unscramble/{letters}",
       "query-input": "required name=letters"
     }
   };

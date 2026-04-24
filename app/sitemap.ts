@@ -5,7 +5,7 @@ import { getTopStaticLetters } from "@/lib/seo";
 
 export const revalidate = 3600;
 
-const base = "https://word-unscrambler-pro.vercel.app";
+const base = "https://unscramble.fyi";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

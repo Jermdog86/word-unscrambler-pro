@@ -1,4 +1,4 @@
-const base = "https://word-unscrambler-pro.vercel.app";
+const base = "https://unscramble.fyi";
 
 export const revalidate = 86400;
 
