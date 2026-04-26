@@ -57,6 +57,18 @@ export default function RootLayout({
       <head>
         <meta name="google-adsense-account" content="ca-pub-6247519976767626" />
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-DFZ9DXRQ1Z"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DFZ9DXRQ1Z');
+          `}
+        </Script>
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6247519976767626"
           crossOrigin="anonymous"
