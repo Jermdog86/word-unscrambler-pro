@@ -1,4 +1,4 @@
-const base = "https://unscramble.fyi";
+const base = "https://www.unscramble.fyi";
 
 export const revalidate = 86400;
 

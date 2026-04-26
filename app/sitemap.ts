@@ -5,7 +5,7 @@ import { getTopStaticLetters } from "@/lib/seo";
 
 export const revalidate = 3600;
 
-const base = "https://unscramble.fyi";
+const base = "https://www.unscramble.fyi";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

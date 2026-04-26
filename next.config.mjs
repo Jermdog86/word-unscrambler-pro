@@ -4,6 +4,21 @@ const nextConfig = {
   images: {
     formats: ["image/webp"]
   },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "unscramble.fyi"
+          }
+        ],
+        destination: "https://www.unscramble.fyi/:path*",
+        permanent: true
+      }
+    ];
+  },
   async headers() {
     return [
       {

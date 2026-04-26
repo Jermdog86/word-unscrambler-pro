@@ -1,6 +1,6 @@
 import { getPublishedBlogPosts } from "@/lib/blog";
 
-const base = "https://unscramble.fyi";
+const base = "https://www.unscramble.fyi";
 
 export const revalidate = 3600;
 
