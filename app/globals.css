@@ -4,31 +4,51 @@
 
 :root {
   --radius: 0.75rem;
-  --background: 220 27% 7%;
-  --foreground: 210 20% 96%;
-  --card: 222 26% 10%;
-  --card-foreground: 210 20% 96%;
-  --primary: 168 76% 45%;
-  --primary-foreground: 0 0% 100%;
-  --muted: 220 17% 16%;
-  --muted-foreground: 215 14% 70%;
-  --border: 220 15% 20%;
-  --input: 220 16% 18%;
-  --ring: 168 76% 45%;
+  /* Official brand colors */
+  --brand-deep-navy: #1a365d;
+  --brand-vibrant-teal: #00c9a7;
+  --brand-electric-purple: #9b59b6;
+  --brand-warm-coral: #ff6b6b;
+  --brand-dark-slate: #0f172a;
+  --brand-soft-white: #f8fafc;
+
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+  --card: 215 56% 23%;
+  --card-foreground: 210 40% 98%;
+  --primary: 170 100% 39%;
+  --primary-foreground: 222 47% 11%;
+  --secondary: 283 39% 53%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 215 56% 23%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 100% 71%;
+  --destructive-foreground: 222 47% 11%;
+  --muted: 215 38% 28%;
+  --muted-foreground: 210 25% 84%;
+  --border: 215 36% 34%;
+  --input: 215 36% 30%;
+  --ring: 170 100% 39%;
 }
 
 .light {
-  --background: 38 33% 97%;
-  --foreground: 220 27% 12%;
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
   --card: 0 0% 100%;
-  --card-foreground: 220 27% 12%;
-  --primary: 185 90% 34%;
-  --primary-foreground: 0 0% 100%;
-  --muted: 36 42% 92%;
-  --muted-foreground: 220 14% 40%;
-  --border: 220 16% 84%;
-  --input: 220 16% 90%;
-  --ring: 185 90% 34%;
+  --card-foreground: 222 47% 11%;
+  --primary: 170 100% 39%;
+  --primary-foreground: 222 47% 11%;
+  --secondary: 283 39% 53%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 215 56% 23%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 100% 71%;
+  --destructive-foreground: 222 47% 11%;
+  --muted: 210 34% 95%;
+  --muted-foreground: 215 24% 35%;
+  --border: 214 32% 86%;
+  --input: 214 32% 90%;
+  --ring: 170 100% 39%;
 }
 
 html,
@@ -39,9 +59,9 @@ body {
 body {
   @apply bg-background text-foreground antialiased;
   font-family: "Satoshi", "Avenir Next", "Segoe UI", sans-serif;
-  background-image: radial-gradient(circle at 10% 0%, rgba(20, 184, 166, 0.16), transparent 45%),
-    radial-gradient(circle at 100% 20%, rgba(14, 116, 144, 0.14), transparent 42%),
-    linear-gradient(160deg, rgba(255, 255, 255, 0.02), transparent 28%);
+  background-image: radial-gradient(circle at 10% 0%, hsl(var(--primary) / 0.18), transparent 45%),
+    radial-gradient(circle at 95% 12%, hsl(var(--secondary) / 0.16), transparent 42%),
+    linear-gradient(160deg, hsl(var(--accent) / 0.2), transparent 38%);
   background-attachment: fixed;
 }
 
@@ -61,11 +81,11 @@ h3 {
 
 @layer utilities {
   .glass {
-    @apply border border-white/10 bg-white/5 backdrop-blur-md;
+    @apply border border-border/50 bg-card/25 backdrop-blur-md;
   }
 
   .surface {
-    @apply border border-border/60 bg-card/50 shadow-[0_14px_40px_-22px_rgba(0,0,0,0.55)];
+    @apply border border-border/60 bg-card/50 shadow-[0_14px_40px_-22px_hsl(var(--background)/0.55)];
   }
 
   .text-balance {
@@ -83,5 +103,5 @@ h3 {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: rgba(148, 163, 184, 0.4);
+  background: hsl(var(--muted-foreground) / 0.4);
 }

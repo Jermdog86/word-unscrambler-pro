@@ -30,7 +30,7 @@ export function WordModal({ word, score, onClose }: WordModalProps) {
   if (!word) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4" role="dialog" aria-modal="true">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-brand-slate/75 p-4" role="dialog" aria-modal="true">
       <div className="w-full max-w-lg rounded-xl border border-border bg-card p-5">
         <div className="flex items-center justify-between gap-3">
           <h3 className="text-xl font-semibold">{word}</h3>
