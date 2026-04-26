@@ -49,9 +49,26 @@ function groupByLength(words) {
   return byLength;
 }
 
+async function writeIfChanged(filePath, content) {
+  let current = null;
+
+  try {
+    current = await fs.readFile(filePath, "utf8");
+  } catch {
+    current = null;
+  }
+
+  if (current === content) {
+    return false;
+  }
+
+  await fs.writeFile(filePath, content, "utf8");
+  return true;
+}
+
 async function writeWordListFile(fileName, words) {
   const targetPath = path.join(dictionariesDir, fileName);
-  await fs.writeFile(targetPath, `${words.join("\n")}\n`, "utf8");
+  await writeIfChanged(targetPath, `${words.join("\n")}\n`);
   return targetPath;
 }
 
@@ -93,12 +110,11 @@ async function buildTarget(target) {
 
   const payload = {
     mode: target.mode,
-    generatedAt: new Date().toISOString(),
     wordCount: words.length,
     byLength: groupByLength(words)
   };
 
-  await fs.writeFile(outputPath, JSON.stringify(payload), "utf8");
+  await writeIfChanged(outputPath, JSON.stringify(payload), "utf8");
   return { outputPath, wordCount: words.length };
 }
 
