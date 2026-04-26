@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { PwaRegister } from "@/components/pwa-register";
 import { PwaInstallButton } from "@/components/pwa-install-button";
+import { LazyAdSenseScript } from "@/components/lazy-adsense-script";
 import { Toaster } from "sonner";
 import { Analytics } from "@vercel/analytics/next";
 
@@ -71,12 +72,6 @@ export default function RootLayout({
             gtag('config', 'G-DFZ9DXRQ1Z');
           `}
         </Script>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6247519976767626"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />        
       </head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
@@ -128,6 +123,7 @@ export default function RootLayout({
             </footer>
           </div>
           <PwaRegister />
+          <LazyAdSenseScript />
           <Analytics />
           <Toaster richColors position="top-right" />
         </ThemeProvider>

@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    formats: ["image/avif", "image/webp"]
+    formats: ["image/webp"]
   },
   async headers() {
     return [
@@ -27,6 +27,7 @@ const nextConfig = {
     ];
   },
   experimental: {
+    optimizeCss: true,
     optimizePackageImports: ["lucide-react"]
   }
 };
